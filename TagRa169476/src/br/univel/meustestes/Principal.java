@@ -81,6 +81,17 @@ public class Principal {
 		noMateriais.addFilho(noMaterialLimpez);
 		//FIM Materiais Pai 04
 		
+		//Test
+//		Conta tesOP = new Conta(1, "TEsttt01", new BigDecimal("330.00"));
+//		UniNode<Conta> noTesOP = new UniNodeImpl<>(tesOP);		
+//		Conta tesOp02 = new Conta(2, "Testtttt02", new BigDecimal("100.00"));
+//		UniNode<Conta> noTesOp02 = new UniNodeImpl<>(tesOp02);		
+//		Conta test = new Conta(5, "Test\t\t", new BigDecimal(0));
+//		UniNode<Conta> noTest = new UniNodeImpl<>(test);		
+//		noTest.addFilho(noTesOP);
+//		noTest.addFilho(noTesOp02);
+		// Fim test
+		
 		
 		// AVO 01
 		Conta despesasOper = new Conta(1, "Despesas Operacionais", new BigDecimal(0));
@@ -89,6 +100,7 @@ public class Principal {
 		noDeOpr.addFilho(noGastoPes);
 		noDeOpr.addFilho(noManutLimpe);
 		noDeOpr.addFilho(noMateriais);
+		//noDeOpr.addFilho(noTest);
 		// Avo
 		
 		
